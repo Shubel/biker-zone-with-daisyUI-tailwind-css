@@ -110,8 +110,12 @@
               <button class="btn bg-bike-primary text-white">Purchase</button>
             </div>
             <!-- image content -->
-            <div class="flex-1">
-              <img src="./images/slider/bike1.png" class="w-[400px]" />
+            <div cl class="w-36" ass="flex-1">
+              <img
+                class="w-36"
+                src="./images/slider/bike1.png"
+                class="w-[400px]"
+              />
             </div>
           </div>
           <div
@@ -277,7 +281,7 @@
         </h3>
         <!-- Hero -->
         <div class="hero">
-          <div class="hero-content flex-col lg:flex-row">
+          <div class="hero-content flex-col lg:flex-row space-x-10">
             <img
               src="./images/others/faq.png"
               class="w-full rounded-lg shadow-2xl"
@@ -363,6 +367,21 @@
     </main>
 
     <!-- Footer Section -->
-    <footer></footer>
+    <footer class="footer bg-black text-neutral-content p-10">
+      <aside>
+        <p>
+          ACME Industries Ltd.
+          <br />
+          Providing reliable tech since 1992
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Get The App</h6>
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="w-36" src="./images/others/ios.png" alt="" /></a>
+          <a><img class="w-36" src="./images/others/android.png" alt="" /></a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
